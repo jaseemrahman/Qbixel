@@ -27,7 +27,7 @@ export default function WhyChooseUs() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-6 font-poppins">
-            Why Choose Qubixel
+            Why Choose Qbixel
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We deliver exceptional results through proven methodologies, cutting-edge technology, and unwavering commitment to client success.

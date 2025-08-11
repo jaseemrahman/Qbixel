@@ -6,7 +6,7 @@ export default function TestimonialsSection() {
       name: 'Sethuraj Savera',
       role: 'CEO, Savera Footwears',
       content:
-        'Qubixel transformed our vision into a stunning mobile app that exceeded all expectations. Their AI integration capabilities are truly remarkable.',
+        'Qbixel transformed our vision into a stunning mobile app that exceeded all expectations. Their AI integration capabilities are truly remarkable.',
       rating: 5,
     },
     {
