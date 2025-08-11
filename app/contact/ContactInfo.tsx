@@ -12,13 +12,13 @@ export default function ContactInfo() {
     {
       icon: 'ri-phone-line',
       title: 'Call Us',
-      content: '+91 XXXXX XXXXX',
+      content: '+91 8592883364',
       description: 'Mon-Fri from 9am to 6pm IST'
     },
     {
       icon: 'ri-map-pin-line',
       title: 'Visit Us',
-      content: 'India',
+      content: 'Mankavu, Near lulu mall, calicut 673007',
       description: 'Our development center'
     }
   ];
