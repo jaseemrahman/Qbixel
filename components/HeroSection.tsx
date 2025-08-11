@@ -36,7 +36,7 @@ export default function HeroSection() {
           </Link>
         </div>
         
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        {/* <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div>
             <div className="text-3xl font-bold text-white mb-2">100+</div>
             <div className="text-gray-300">Projects Delivered</div>
@@ -53,7 +53,7 @@ export default function HeroSection() {
             <div className="text-3xl font-bold text-white mb-2">24/7</div>
             <div className="text-gray-300">Support</div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

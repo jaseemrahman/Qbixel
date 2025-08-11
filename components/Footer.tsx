@@ -51,13 +51,13 @@ export default function Footer() {
                 <div className="w-5 h-5 flex items-center justify-center mr-3">
                   <i className="ri-phone-line text-gray-300"></i>
                 </div>
-                <span className="text-gray-300">+91 XXXXX XXXXX</span>
+                <span className="text-gray-300">+91 8592883364</span>
               </div>
               <div className="flex items-center">
                 <div className="w-5 h-5 flex items-center justify-center mr-3">
                   <i className="ri-map-pin-line text-gray-300"></i>
                 </div>
-                <span className="text-gray-300">India</span>
+                <span className="text-gray-300">Mankavu, Near lulu mall, calicut 673007</span>
               </div>
             </div>
           </div>

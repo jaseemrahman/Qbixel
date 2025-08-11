@@ -11,9 +11,13 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
       <nav className="px-6 py-4">
         <div className="flex items-center justify-between max-w-7xl mx-auto">
-          <Link href="/" className="font-bold text-2xl text-black" style={{ fontFamily: 'Times New Roman, serif' }}>
-            Qbixel
-          </Link>
+        <Link 
+          href="/" 
+          className="font-bold text-2xl text-black" 
+          style={{ fontFamily: 'Montserrat, sans-serif' }}
+        >
+          Qbixel
+        </Link>
           
           <div className="hidden md:flex items-center space-x-8">
             <Link href="/" className="text-black hover:text-gray-600 font-medium transition-colors">
