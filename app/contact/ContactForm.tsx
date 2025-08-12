@@ -7,7 +7,8 @@ export default function ContactForm() {
     name: '',
     email: '',
     phone: '',
-    message: ''
+    message: '',
+    date: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState('');
@@ -40,7 +41,7 @@ export default function ContactForm() {
 
       if (response.ok) {
         setSubmitStatus('Thank you! Your message has been sent successfully.');
-        setFormData({ name: '', email: '', phone: '', message: '' });
+        setFormData({ name: '', email: '', phone: '', message: '', date: '' });
       } else {
         setSubmitStatus('Sorry, there was an error sending your message. Please try again.');
       }
@@ -110,6 +111,20 @@ export default function ContactForm() {
               placeholder="Enter your phone number"
             />
           </div>
+          <div>
+            <label htmlFor="date" className="block text-sm font-semibold text-black mb-2">
+              Date
+            </label>
+            <input
+              type="date"
+              id="date"
+              name="date"
+              value={formData.date}
+              onChange={handleChange}
+              className="w-full px-4 py-3 border-2 border-gray-300 focus:border-black focus:outline-none transition-all duration-300 text-sm"
+            />
+          </div>
+
 
           <div>
             <label htmlFor="message" className="block text-sm font-semibold text-black mb-2">
