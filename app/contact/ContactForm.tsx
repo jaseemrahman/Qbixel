@@ -23,7 +23,6 @@ export default function ContactForm() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Validate message length
     if (formData.message.length > 500) {
       setSubmitStatus('Message must be 500 characters or less');
       setIsSubmitting(false);
@@ -31,17 +30,12 @@ export default function ContactForm() {
     }
 
     try {
-      const response = await fetch('https://formspree.io/f/contact', {
+      const response = await fetch('https://formspree.io/f/mkgzyjqz', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
+          'Content-Type': 'application/json',
         },
-        body: new URLSearchParams({
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone,
-          message: formData.message
-        }).toString()
+        body: JSON.stringify(formData)
       });
 
       if (response.ok) {
@@ -146,7 +140,13 @@ export default function ContactForm() {
           </button>
 
           {submitStatus && (
-            <div className={`mt-4 p-4 text-center ${submitStatus.includes('Thank you') ? 'bg-green-50 text-green-800' : 'bg-red-50 text-red-800'}`}>
+            <div
+              className={`mt-4 p-4 text-center ${
+                submitStatus.includes('Thank you')
+                  ? 'bg-green-50 text-green-800'
+                  : 'bg-red-50 text-red-800'
+              }`}
+            >
               {submitStatus}
             </div>
           )}
