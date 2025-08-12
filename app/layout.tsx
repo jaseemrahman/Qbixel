@@ -54,20 +54,20 @@ export const metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Qbixel Technologies - Web Development Company",
+        alt: "Qbixel Technologies",
       },
     ],
     locale: "en_US",
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Qbixel Technologies - Web Development & Digital Solutions",
-    description:
-      "Modern, scalable, and user-focused web development solutions for your business.",
-    images: ["/og-image.png"],
-    creator: "@qbixel", // Replace if you have Twitter handle
-  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Qbixel Technologies - Web Development & Digital Solutions",
+  //   description:
+  //     "Modern, scalable, and user-focused web development solutions for your business.",
+  //   images: ["/og-image.png"],
+  //   creator: "@qbixel", // Replace if you have Twitter handle
+  // },
   alternates: {
     canonical: "https://qbixel.vercel.app/",
   },
