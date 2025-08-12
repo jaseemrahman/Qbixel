@@ -19,10 +19,61 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Qbixel",
-  description: "Qbixel is a full-service web development company delivering modern, scalable, and user-focused digital solutions. We specialize in custom websites, web applications, and e-commerce platforms that help businesses grow online."
+export const metadata = {
+  title: "Qbixel Technologies - Web Development & Digital Solutions",
+  description:
+    "Qbixel Technologies delivers modern, scalable, and user-focused digital solutions. We build custom websites, web apps, and e-commerce platforms to help businesses grow online.",
+  keywords: [
+    "Qbixel",
+    "Qbixel Technologies",
+    "web development company",
+    "Next.js development",
+    "Django development",
+    "custom websites",
+    "e-commerce development",
+    "website design",
+    "full stack development",
+    "web application development",
+    "SEO friendly websites"
+  ],
+  authors: [{ name: "Qbixel Technologies", url: "https://qbixel.vercel.app/" }],
+  creator: "Qbixel Technologies",
+  publisher: "Qbixel Technologies",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  openGraph: {
+    title: "Qbixel Technologies - Web Development & Digital Solutions",
+    description:
+      "We create high-performance websites, web apps, and e-commerce solutions tailored for your business growth.",
+    url: "https://qbixel.vercel.app/",
+    siteName: "Qbixel Technologies",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Qbixel Technologies - Web Development Company",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Qbixel Technologies - Web Development & Digital Solutions",
+    description:
+      "Modern, scalable, and user-focused web development solutions for your business.",
+    images: ["/og-image.png"],
+    creator: "@qbixel", // Replace if you have Twitter handle
+  },
+  alternates: {
+    canonical: "https://qbixel.vercel.app/",
+  },
 };
+
+
 
 export default function RootLayout({
   children,
